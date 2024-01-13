@@ -99,9 +99,70 @@ Since we will experiment different versions of the datasets, feature extractors 
              <p align="left">
                 <img align="center" src="/images/epochsFolder.png">
              </p>
+
+
    
 ## Training:
+In the training phase, we train the following five feature extractors (pre-trained CNN) seperetly:
+              <p align="center">
+                <img align="center" src="/images/featureExtractors.png">
+             </p>
+And we train the following two classifiers:
+              <p align="center">
+                <img align="center" src="/images/classifiers.png">
+             </p>
+
+             
+To train the feature extractor and classifiers, run **Training.ipynb** Jupyter Notebook after you modify the following:
+1. Track and replace the paths of data and Results folders with your paths:
+   ```
+   "C:/Users/mona/Desktop/Results/"
+   "C:/Users/mona/Desktop/data/"
+   ```
+2.   Choose the dataset version and paths:
+   ```
+dataset_version= 'modelnet40v1' 
+dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v1_train'
+```
+OR
+```
+dataset_version= 'modelnet40v2'
+dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v2_train'
+```
+OR
+```
+dataset_version= 'shaded_modelnet40v2'
+dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v2_train'
+```
+3.   Spicify the img size (here 224*224)
+```
+Img_Size= 224 
+```
+4.   Spicify the feature extractor (here ResNet152). Note: we only experimented five feature extractors but more options are included in the code.
+   ```
+all_deep_models = [ResNet152]
+all_model_name_txt = ["ResNet152"]
+````
+5.   Spicify the BATCH_SIZE, EPOCHS, learning_rate:
+   ```
+BATCH_SIZE = 384
+EPOCHS = 20
+learning_rate = 0.0001 
+```
+
+
 ## Testing:
+For testing, run **Testing.ipynb** Jupyter Notebook after you modify Steps from 1 to 4, and specify the following selection mechanisms:
+1. Most Similar View (MSV):
+   ```
+   selection_mechanism = 'MSV'
+   ```
+   OR
+3. Most Dissimilar View (MDV):
+    ```
+   selection_mechanism = 'MDV'
+   ```
+
 ## Results:
 ### Quantitative Results:
 The classification accuracy of our proposed model on ModelNet40v1 and ModelNet40v2 datasets is rendered as 12 views and 20 views for each object, respectively. Each model is trained for 30 epochs. The best results are shown in bold and underlined:
