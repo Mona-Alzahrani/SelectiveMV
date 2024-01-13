@@ -83,15 +83,22 @@ Since we will experiment different versions of the datasets, feature extractors 
      </p>
 
 
-   * Results folder: create new folders inside it and rename them with dataset names (one folder for each dataset). And inside each dataset folder, create new folders and rename them with feature extractor names (pre-trained CNN names).
+   * Results folder: create new folders inside it and rename them with dataset names (one folder for each dataset). 
      <p align="left">
     <img align="center" src="/images/ResultsFolder.png">
      </p>
 <br />
 <br />
-   <p align="left">
-    <img align="center" src="/images/ResultsDatasetFolders.png">
-     </p>
+        * And inside each dataset folder, create new folders and rename them with feature extractor names (pre-trained CNN names).
+         <p align="left">
+              <img align="center" src="/images/ResultsDatasetFolders.png">
+          </p>
+     <br />
+<br />
+             * And inside each feature extractor folder, create new folders and rename them with number of epochs used for training (here we trained on 20 and 30 epochs).
+             <p align="left">
+                <img align="center" src="/images/epochsFolder.png">
+             </p>
    
 ## Training:
 ## Testing:
