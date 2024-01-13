@@ -57,6 +57,18 @@ Additionally, we investigate the effect of shape representation on the classific
 ## Training:
 ## Testing:
 ## Results:
+### Quantitative Results:
+The classification accuracy of our proposed model on ModelNet40v1 and ModelNet40v2 datasets is rendered as 12 views and 20 views for each object, respectively. Each model is trained for 30 epochs. The best results are shown in bold and underlined:
+ ![allResults](/images/allResults.png "The classification accuracy of our proposed model on ModelNet40v1 and ModelNet40v2 datasets")
+ 
+Results of the proposed model with shading as rendering technique:
+ ![shadedResults](/images/shadedResults.png "Results of the proposed model with shading as rendering technique")
+
+Comparison with the selective view-based 3D object classification methods experimented with a single view. OA is overall accuracy, and AA is average accuracy. The best results are shown in bold and underlined:
+ ![ComparisonResults](/images/ComparisonResults.png "Comparison with the selective view-based 3D object classification methods experimented with a single view")
+
+ 
+### Visual Results:
 In this work, we consider and experiment with the best discriminative view differently. The first selection technique, considers the _Most Similar View (MSV)_ as a considerably reasonable discriminating view because it could contain most features on other views corresponding to the same object. The _MSV_ has a higher cosine similarity (a higher important score). The other way is by considering the _Most Dissimilar View (MDV)_ as the best discriminative view due to the unique and irredundant features of different views corresponding to the same object. The _MDV_ is the view that has the lower cosine similarity (lower important score).
   ![MSV_and_MDV](/images/MSV_and_MDV.png "Most Similar View (MSV) and Most Dissimilar View (MDV)")
   The set of 12 circular views obtained from sample objects and their corresponding importance scores are displayed. Views with the highest importance scores, representing the _Most Similar Views (MSV)_, are highlighted with green boxes. Conversely, views with the lowest importance scores, representing the _Most Dissimilar Views (MDV)_, are enclosed in brown boxes.
