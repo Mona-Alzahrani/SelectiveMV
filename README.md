@@ -77,14 +77,18 @@ Additionally, we investigate the effect of shape representation on the classific
 Since we will experiment different versions of the datasets, feature extractors and classifiers, we do the following to organize the data and results: 
 
 * Prepare two folders:
-   * data folder: put all the unzip dataset folders inside it. Notethat each dataset will have two folders one for training and other for testing. The data folder will also be used later by our code to save the extracted features.
+   * data folder: put all the unzip dataset folders inside it. Note that each dataset will have two folders one for training and other for testing. The data folder will also be used later by our code to save the extracted features.
      <p align="left">
     <img align="center" src="/images/dataFolder.png">
      </p>
-     
+
+
    * Results folder: create folders inside it and rename them with dataset names (one folder for each dataset). And inside these folders, create another folders and rename them with feature extractor names (pre-trained CNN names).
      <p align="left">
     <img align="center" src="/images/ResultsFolder.png">
+     </p>
+<br />
+   <p align="left">
     <img align="center" src="/images/ResultsDatasetFolder.png">
      </p>
 
