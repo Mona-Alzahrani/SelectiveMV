@@ -101,6 +101,18 @@ In this work, we consider and experiment with the best discriminative view diffe
     <figcaption> The set of 12 circular views obtained from sample objects and their corresponding importance scores are displayed. Views with the highest importance scores, representing the Most Similar Views (MSV), are highlighted with green boxes. Conversely, views with the lowest importance scores, representing the Most Dissimilar Views (MDV), are enclosed in brown boxes.. </figcaption>
   </p>
 
+Here, we use the [Grad-CAM](https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html) technique to analyze the predicted labels to highlight the regions on the views responsible for the classification. We show some correctly predicted views by the proposed model with their corresponding feature maps highlighted with Guided GradCam showing the responsible regions that led to the correct classification. These feature maps show how the proposed model selects the views that contain distinguishing features, such as shelves in bookshelves and circular edges in bowls.
+<p align="center">
+    <img align="center" src="/images/CorrectClasses1.png">
+    <figcaption>Samples of feature maps belong to correctly classified labels highlighted with the Grad-CAM technique to show the responsible regions that led to the classification. </figcaption>
+  </p>
+
+It has been found that top confusions happened when: i) "flower pot" predicted as "plant", ii) "dressers" predicted as "night stand", and iii) "plant" predicted as "flower pot". Even for human observers, distinguishing between these specific pairs of classes can be challenging due to the ambiguity present.
+<p align="center">
+    <img align="center" src="/images/MissclassifiedClasses.png">
+    <figcaption>Multi-view samples from ModelNet40v1 dataset of the most wrongly classified objects by the proposed model. </figcaption>
+  </p>
+
 
   Since _Most Similar Views (MSV)_ give better results, input and output of the proposed model will be as follow: Given a 3D object as input, our proposed model generates _m_ multi-view images from the 3D object and assigns importance scores based on their cosine similarity, in which the view with the highest importance score is selected as the global descriptor to classify the object and finally, predict its category as output.
 
@@ -110,6 +122,7 @@ In this work, we consider and experiment with the best discriminative view diffe
   </p>
 
   
+
 
 
 
