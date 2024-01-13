@@ -90,11 +90,9 @@ Since we will experiment different versions of the datasets, feature extractors 
 <br />
 <br />
    <p align="left">
-    <img align="center" src="/images/ResultsDatasetFolder.png">
+    <img align="center" src="/images/ResultsDatasetFolders.png">
      </p>
-
-
-     
+   
 ## Training:
 ## Testing:
 ## Results:
