@@ -57,6 +57,13 @@ Additionally, we investigate the effect of shape representation on the classific
 ## Training:
 ## Testing:
 ## Results:
+In this work, we consider and experiment with the best discriminative view differently. The first selection technique, considers the _Most Similar View (MSV)_ as a considerably reasonable discriminating view because it could contain most features on other views corresponding to the same object. The _MSV_ has a higher cosine similarity (a higher important score). The other way is by considering the _Most Dissimilar View (MDV)_ as the best discriminative view due to the unique and irredundant features of different views corresponding to the same object. The _MDV_ is the view that has the lower cosine similarity (lower important score).
+  ![MSV_and_MDV](/images/MSV_and_MDV.png "Most Similar View (MSV) and Most Dissimilar View (MDV)")
+  The set of 12 circular views obtained from sample objects and their corresponding importance scores are displayed. Views with the highest importance scores, representing the _Most Similar Views (MSV)_, are highlighted with green boxes. Conversely, views with the lowest importance scores, representing the _Most Dissimilar Views (MDV)_, are enclosed in brown boxes.
+
+  Since _Most Similar Views (MSV)_ give better results, input and output of the proposed model will be as follow: Given a 3D object as input, our proposed model generates _m_ multi-view images from the 3D object and assigns importance scores based on their cosine similarity, in which the view with the highest importance score is selected as the global descriptor to classify the object and finally, predict its category as output.
+  ![SelectedView](/images/SelectedView.png "Input and output of the proposed model")
+
 
 
 ## Citation:
