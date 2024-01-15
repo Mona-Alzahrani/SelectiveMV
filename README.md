@@ -214,7 +214,7 @@ It has been found that top confusions happened when: i) "flower pot" predicted a
 
 
 ## Citation:
-If you find the code helpful in your resarch or work, please cite the following paper:
+For those who find the provided code beneficial for their research or work, we kindly request citing the following paper:
 ```
 @article{SelectiveMV2024,
   title={Selective Multi-View Deep Model for 3D Object Classification},
