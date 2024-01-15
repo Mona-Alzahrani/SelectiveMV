@@ -209,10 +209,6 @@ It has been found that top confusions happened when: i) "flower pot" predicted a
     <figcaption>Input and output of the proposed model. </figcaption>
   </p>
 
-  
-
-
-
 
 ## Citation:
 If you find the code helpful in your resarch or work, please cite the following paper:
@@ -222,6 +218,8 @@ If you find the code helpful in your resarch or work, please cite the following 
   author={Alzahrani, Mona and Usman, Muhammad and Anwar, Saeed and Helmy, Tarek},
 }
 ```
+
+"Please note that the paper is forthcoming. Once the paper is officially published, we will update the citation details accordingly."
 
 ## Acknowledgement:
 This project is funded by the Interdisciplinary Research Center for Intelligent Secure Systems at King Fahd University of Petroleum & Minerals (KFUPM) under Grant Number INSS2305.
