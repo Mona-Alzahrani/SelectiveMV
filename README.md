@@ -70,8 +70,8 @@ Additionally, we investigate the effect of shape representation on the classific
     <figcaption>Shaded multi-view images (12 views). </figcaption>
   </p>
   
-  * **ShadedModelNet40v2 Training** can be download from [here.](https://drive.google.com/file/d/1xxTCtDfTJDdEpkNQOoCvtGM6va2NYV2r/view?usp=sharing)
-  * **ShadedModelNet40v2 Testing** can be download from [here.](https://drive.google.com/file/d/1WIuRJe7Oz0vVLi1fAsbELyfm95A09EdI/view?usp=sharing)
+  * **ShadedModelNet40v1 Training** can be download from [here.](https://drive.google.com/file/d/1xxTCtDfTJDdEpkNQOoCvtGM6va2NYV2r/view?usp=sharing)
+  * **ShadedModelNet40v1 Testing** can be download from [here.](https://drive.google.com/file/d/1WIuRJe7Oz0vVLi1fAsbELyfm95A09EdI/view?usp=sharing)
 
 ## Getting Started:
 Since we will experiment different versions of the datasets, feature extractors and classifiers, we do the following to organize the data and results: 
