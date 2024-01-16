@@ -115,36 +115,36 @@ And we train the following two classifiers:
              
 To train the feature extractor and classifiers, run **Training.ipynb** Jupyter Notebook after you modify the following:
 1. Track and replace the paths of data and Results folders with your paths:
-   ```
+   ```shell
    "C:/Users/mona/Desktop/Results/"
    "C:/Users/mona/Desktop/data/"
    ```
 2.   Choose the dataset version and paths:
-   ```
+   ```shell
 dataset_version= 'modelnet40v1' 
 dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v1_train'
 ```
 OR
-```
+```shell
 dataset_version= 'modelnet40v2'
 dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v2_train'
 ```
 OR
-```
+```shell
 dataset_version= 'shaded_modelnet40v2'
 dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v2_train'
 ```
 3.   Spicify the img size (here 224*224)
-```
+```shell
 Img_Size= 224 
 ```
 4.   Spicify the feature extractor (here ResNet152). Note: we only experimented five feature extractors but more options are included in the code.
-   ```
+```shell
 all_deep_models = [ResNet152]
 all_model_name_txt = ["ResNet152"]
 ````
 5.   Spicify the BATCH_SIZE, EPOCHS, learning_rate:
-   ```
+```shell
 BATCH_SIZE = 384
 EPOCHS = 20
 learning_rate = 0.0001 
@@ -154,12 +154,12 @@ learning_rate = 0.0001
 ## Testing:
 For testing, run **Testing.ipynb** Jupyter Notebook after you modify Steps from 1 to 4, and specify the following selection mechanisms:
 1. Most Similar View (MSV):
-   ```
+   ```shell
    selection_mechanism = 'MSV'
    ```
    OR
 3. Most Dissimilar View (MDV):
-    ```
+    ```shell
    selection_mechanism = 'MDV'
    ```
 
