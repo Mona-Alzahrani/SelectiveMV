@@ -22,7 +22,7 @@ The model is built in _Visual Studio Code_ editor using:
 
 <p align="center">
   <img align="center"  src="/images/framework.png" title="Illustration of the proposed framework">
-  <figcaption>Illustration of the proposed framework. The proposed framework operates in five phases to predict the class of a 3D object: A) It generates _m_ multi-view images from the 3D object. B) Feature maps are extracted from each view. C) These feature maps are converted into feature vectors, and D) importance scores are assigned based on their cosine similarity. The feature vector with the highest importance score, known as the Most Similar View (MSV), is selected as the global descriptor. E) Finally, the global descriptor is utilized to classify the object using a pre-trained classifier..</figcaption>
+  <figcaption>Illustration of the proposed framework. The proposed framework operates in five phases to predict the class of a 3D object: A) It generates _m_ multi-view images from the 3D object. B) Feature maps are extracted from each view. C) These feature maps are converted into feature vectors, and D) importance scores are assigned based on their cosine similarity. The feature vector with the highest importance score, known as the Most Similar View (MSV), is selected as the global descriptor. E) Finally, the global descriptor is utilized to classify the object using a pre-trained classifier.</figcaption>
 </p>
 
   
