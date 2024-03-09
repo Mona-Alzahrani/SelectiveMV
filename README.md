@@ -5,7 +5,7 @@ This repository is for the following paper _"Selective Multi-View Deep Model for
 The model is built in _Visual Studio Code_ editor using: 
 * Tensorflow-gpu 2.10
 * Cuda 11.2
-* cuDNN8.1 
+* cuDNN 8.1 
 * Python 3.9 
 
 ## Content:
