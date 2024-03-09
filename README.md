@@ -116,8 +116,8 @@ And we train the following two classifiers:
 To train the feature extractor and classifiers, run **Training.ipynb** Jupyter Notebook after you modify the following:
 1. Track and replace the paths of data and Results folders with your paths:
    ```shell
-   "C:/Users/mona/Desktop/Results/"
-   "C:/Users/mona/Desktop/data/"
+   "./Results/"
+   "./data/"
    ```
 2.   Choose the dataset version and paths:
    ```shell
@@ -127,12 +127,12 @@ dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v1_train'
 OR
 ```shell
 dataset_version= 'modelnet40v2'
-dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v2_train'
+dataset_train = './data/modelnet40v2_train'
 ```
 OR
 ```shell
 dataset_version= 'shaded_modelnet40v2'
-dataset_train = 'C:/Users/mona/Desktop/data/modelnet40v2_train'
+dataset_train = './data/modelnet40v2_train'
 ```
 3.   Spicify the img size (here 224*224)
 ```shell
