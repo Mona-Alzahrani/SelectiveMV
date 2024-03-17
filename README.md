@@ -36,7 +36,7 @@ The architecture of the proposed selective multi-view deep model contains five p
  <br /> (D) **Object classification:** the global descriptor of the object feeds to a classifier to predict its class.
 
 <p align="center">
-  <img align="center" src="/images/architecture.png" title="The architecture of the proposed selective multi-view deep model">
+  <img align="center" src="/images/methodology3.png" title="The architecture of the proposed selective multi-view deep model">
   <figcaption>The architecture of the proposed selective multi-view deep model. </figcaption>
 </p>
 
