@@ -216,16 +216,18 @@ It has been found that top confusions happened when: i) "flower pot" predicted a
 ## Citation:
 For those who find the provided code beneficial for their research or work, we kindly request citing the following paper:
 ```
-@inproceedings{SelectiveMV2024,
-  title={Selective Multi-View Deep Model for 3D Object Classification},
-  author={Alzahrani, Mona and Usman, Muhammad and Anwar, Saeed and Helmy, Tarek},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2024}
+@InProceedings{SelectiveMV2024,
+    author    = {Alzahrani, Mona and Usman, Muhammad and Anwar, Saeed and Helmy, Tarek},
+    title     = {Selective Multi-View Deep Model for 3D Object Classification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {728-736}
 }
 ```
 
 "Please note that the paper is forthcoming. Once the paper is officially published, we will update the citation details accordingly."
 
 ## Acknowledgement:
-This project is funded by the Interdisciplinary Research Center for Intelligent Secure Systems at King Fahd University of Petroleum & Minerals (KFUPM) under Grant Number INSS2305.
+The authors would like to acknowledge the support received from Saudi Data and AI Authority (SDAIA) and King Fahd University of Petroleum and Minerals (KFUPM) under SDAIA-KFUPM Joint Research Center for Artificial Intelligence Grant no. JRC-AI-RFP-19.
 
