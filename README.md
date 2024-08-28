@@ -215,6 +215,8 @@ It has been found that top confusions happened when: i) "flower pot" predicted a
 
 ## Citation:
 For those who find the provided code beneficial for their research or work, we kindly request citing the following papers:
+<br />
+<br />
 Original Paper:
 ```
 @InProceedings{SelectiveMV2024,
@@ -231,7 +233,8 @@ Original Paper:
 @article{SelectiveMV2-2024,
   title={3D Object Classification With Selective Multi-View Fusion And Shape Rendering},
   author={Alzahrani, Mona and Usman, Muhammad and Alharbi, Randah and Anwar, Saeed and Mian, Ajmal and Helmy, Tarek},
-  booktitle={In 2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA),
+  booktitle={International Conference on Digital Image Computing: Techniques and Applications (DICTA),
+  month= {November},
   year={2024},
   organization={IEEE}
 }
