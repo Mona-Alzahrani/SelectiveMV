@@ -1,5 +1,5 @@
 # Selective Multi-View Deep Model for 3D Object Classification (SelectiveMV)
-This repository is for the following paper _"Selective Multi-View Deep Model for 3D Object Classification (SelectiveMV)"_ introduced by [Mona Alzahrani](https://github.com/Mona-Alzahrani), Muhammad Usman, [Saeed Anwar](https://saeed-anwar.github.io/), and Tarek Helmy, CVPR 2024.
+This repository is for the following paper _"Selective Multi-View Deep Model for 3D Object Classification (SelectiveMV)"_ introduced by [Mona Alzahrani](https://github.com/Mona-Alzahrani), Muhammad Usman, [Saeed Anwar](https://saeed-anwar.github.io/), and Tarek Helmy, CVPR 2024. [pdf](https://openaccess.thecvf.com/content/CVPR2024W/3DMV/papers/Alzahrani_Selective_Multi-View_Deep_Model_for_3D_Object_Classification_CVPRW_2024_paper.pdf) [supp](https://openaccess.thecvf.com/content/CVPR2024W/3DMV/supplemental/Alzahrani_Selective_Multi-View_Deep_CVPRW_2024_supplemental.pdf) [bibtex](#Citation)
 
 ## Requirements: 
 The model is built in _Visual Studio Code_ editor using: 
@@ -226,7 +226,6 @@ For those who find the provided code beneficial for their research or work, we k
 }
 ```
 
-"Please note that the paper is forthcoming. Once the paper is officially published, we will update the citation details accordingly."
 
 ## Acknowledgement:
 The authors would like to acknowledge the support received from Saudi Data and AI Authority (SDAIA) and King Fahd University of Petroleum and Minerals (KFUPM) under SDAIA-KFUPM Joint Research Center for Artificial Intelligence Grant no. JRC-AI-RFP-19.
