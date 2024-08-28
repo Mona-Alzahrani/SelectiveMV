@@ -214,7 +214,8 @@ It has been found that top confusions happened when: i) "flower pot" predicted a
 
 
 ## Citation:
-For those who find the provided code beneficial for their research or work, we kindly request citing the following paper:
+For those who find the provided code beneficial for their research or work, we kindly request citing the following papers:
+Original Paper:
 ```
 @InProceedings{SelectiveMV2024,
     author    = {Alzahrani, Mona and Usman, Muhammad and Anwar, Saeed and Helmy, Tarek},
@@ -225,7 +226,17 @@ For those who find the provided code beneficial for their research or work, we k
     pages     = {728-736}
 }
 ```
-
+[Extended work](https://github.com/Mona-Alzahrani/SelectiveMV-Multiview):
+```
+@article{SelectiveMV2-2024,
+  title={3D Object Classification With Selective Multi-View Fusion And Shape Rendering},
+  author={Alzahrani, Mona and Usman, Muhammad and Alharbi, Randah and Anwar, Saeed and Mian, Ajmal and Helmy, Tarek},
+  booktitle={In 2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA),
+  year={2024},
+  organization={IEEE}
+}
+```
+This [extended work](https://github.com/Mona-Alzahrani/SelectiveMV-Multiview) delves deeper into 3D object classification with selective multi-view fusion and shape rendering. Your citations and acknowledgments are greatly appreciated."
 
 ## Acknowledgement:
 The authors would like to acknowledge the support received from Saudi Data and AI Authority (SDAIA) and King Fahd University of Petroleum and Minerals (KFUPM) under SDAIA-KFUPM Joint Research Center for Artificial Intelligence Grant no. JRC-AI-RFP-19.
